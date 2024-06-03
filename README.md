@@ -22,7 +22,7 @@ The manager is responsible for compiling and generating bills based on the order
 
 Functions include calculating total costs, applying discounts or promotions, generating invoices, and managing overall financial records.
 
-## Cleanup and Shutdown (cleanup.c)
+## Cleanup and Shutdown (admin.c)
 
 This module is responsible for closing the hotel operations for the day. It ensures that all data is properly saved and the system is safely shut down.
 
@@ -52,7 +52,7 @@ Compiles bills and processes payments.
 
 Maintains financial records and generates daily reports.
 
-### cleanup.c:
+### admin.c:
 
 Finalizes the day's operations.
 
@@ -70,6 +70,6 @@ Billing: The manager compiles bills based on orders using hotelmanager.c.
 
 Check-out: Customers check out, and their data is updated in table.c.
 
-Daily Cleanup: At the end of the day, cleanup.c ensures all operations are finalized and the system is shut down safely.
+Daily Cleanup: At the end of the day, admin.c ensures all operations are finalized and the system is shut down safely.
 
 This modular approach ensures a well-organized and efficient management of hotel operations, enhancing both customer service and operational efficiency.
